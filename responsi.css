@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f7ff; /* Biru muda */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0ee0b6; /* Biru gelap */
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  #content {
+    width: 70%;
+  }
+  
+  article {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  aside {
+    width: 25%;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #0ee0b6; /* Biru gelap */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+ 
+article img,
+aside img {
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    width: 100px; /* Atur lebar gambar */
+    height: 100px; /* Atur tinggi gambar */
+    object-fit: cover; /* Memastikan gambar terpotong dengan baik */
+}
+
+/* Mengatur lebar dan tinggi gambar pada header */
+header img {
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    width: 26px; /* Atur lebar gambar */
+    height: 26px; /* Atur tinggi gambar */
+    object-fit: cover; /* Memastikan gambar terpotong dengan baik */
+}
